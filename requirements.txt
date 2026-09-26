@@ -4,3 +4,4 @@ crewai-tools
 crewai[litellm]
 groq
 sentence-transformers
+Fix Groq LiteLLM support
