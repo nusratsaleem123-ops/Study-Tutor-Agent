@@ -1,7 +1,4 @@
-streamlit
-crewai
-crewai-tools
-crewai[litellm]
-groq
-sentence-transformers
 
+streamlit
+crewai>=0.80.0
+litellm>=1.55.0
