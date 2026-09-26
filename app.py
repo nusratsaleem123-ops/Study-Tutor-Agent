@@ -1,6 +1,9 @@
 import os
 import streamlit as st
 
+# LiteLLM ko prompt caching disable karne ke liye force karein
+os.environ["LITELLM_DISABLE_PROMPT_CACHING"] = "True"
+
 # Connect Streamlit Cloud secret to the environment variable
 try:
     os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
