@@ -1,5 +1,6 @@
 streamlit
 crewai
 crewai-tools
+crewai[litellm]
 groq
 sentence-transformers
