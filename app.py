@@ -381,3 +381,20 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
+import streamlit as st
+
+# Custom Styling
+st.markdown("""
+    <style>
+    /* Main Background Color */
+    .stApp {
+        background-color: #0f172a;
+        color: #f8fafc;
+    }
+    
+    /* Sidebar Styling */
+    section[data-testid="stSidebar"] {
+        background-color: #1e293b;
+    }
+    </style>
+""", unsafe_allow_html=True)
